@@ -60,3 +60,9 @@ Updating Vertex Gains Algorithm
      Increment the gain of each free neighboring vertex in F.
      Decrement the gain of all free neighboring vertices in T.
 ```
+
+Credits
+--------------
+
+Matt Stallman, Professor, NCSU
+Zach Cleghern
