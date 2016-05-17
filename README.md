@@ -61,9 +61,19 @@ Updating Vertex Gains Algorithm
      Decrement the gain of all free neighboring vertices in T.
 ```
 
-Credits
+Credits and Contributers
 --------------
 ```
 Matt Stallman, Professor, NCSU
 Zach Cleghern
 ```
+
+References
+---
+[1] B.W. Kernighan, S. Lin. An efficient heuristic procedure for partitioning graphs. Bell System Tech. J.,
+pages 291 - 307, 1970.
+[2] C. M. Fiduccia and R. M. Mattheyses. A linear time heuristic for improving network partitions. In
+Proceedings of the ACM/IEEE Design Automation Conference, pages 175-181,1982.
+[3] Wikipedia Fiduccia-Mattheyses_algorithm.
+[4] Matthias Stallmann, Path Splicing Document
+
