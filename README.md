@@ -63,6 +63,7 @@ Updating Vertex Gains Algorithm
 
 Credits
 --------------
-
+```
 Matt Stallman, Professor, NCSU
 Zach Cleghern
+```
