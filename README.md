@@ -48,3 +48,15 @@ Initializing Vertex Gain Algorithm
        If T(n) = 0, Then decrement gain
 
 ```
+**Updating Vertex Gains**
+After each step, gains of the vertices needs to be recomputed. We note that only the neighboring
+vertices of the base cell will have to be worked upon. As per the proposition 4 in the F-M paper [2] for hypergraphs, the total work required to maintain cell gains during a segment is O(n(E)).
+```
+Updating Vertex Gains Algorithm
+• F ← “From” partition of base vertex i
+• T ←  “To” partition of base vertex i
+• Lock the base vertex and complement its block
+• For each edge incident on base vertex i
+     Increment the gain of each free neighboring vertex in F.
+     Decrement the gain of all free neighboring vertices in T.
+```
