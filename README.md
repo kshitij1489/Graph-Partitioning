@@ -37,13 +37,14 @@ Using the proposition stated in the original F-M paper for hypergraphs, we claim
 **Initializing Vertex Gain**
 At the beginning of each segment, we compute the gains of each vertex in the graph. This process makes as many operations as the sum of the degrees of each vertices. 
 The sum of degrees is equal to 2*m. Hence the below algorithm works in O(m) time.
-
+```
 Initializing Vertex Gain Algorithm
 *	For each free vertex i 
-    g(i) ← 0 
+       g(i) ← 0 
 *	F ← “From” partition of vertex i 
 *	T ← “To” partition of vertex i 
 *	For each edge incident on vertex i DO, 
-    If F(n) = 1, Then increment gain 
-    If T(n) = 0, Then decrement gain
+       If F(n) = 1, Then increment gain 
+       If T(n) = 0, Then decrement gain
 
+```
