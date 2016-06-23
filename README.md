@@ -44,8 +44,8 @@ Initializing Vertex Gain Algorithm
 *	F ← “From” partition of vertex i 
 *	T ← “To” partition of vertex i 
 *	For each edge incident on vertex i DO, 
-       If F(n) = 1, Then increment gain 
-       If T(n) = 0, Then decrement gain
+       If F(n) = 1, Then increment gain // F(n) = if both vertices lie on same side of partition
+       If T(n) = 0, Then decrement gain // T(n) = if the incident vertices lie on both sides of the partition
 
 ```
 **Updating Vertex Gains**
