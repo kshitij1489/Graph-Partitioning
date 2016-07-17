@@ -15,7 +15,7 @@ void DataStructures::initializeBuckets(vector<VertexPtr>& buckets)
 	}
 }
 
-void DataStructures::initializeBucketSort(int vertexIndex, int gain, vector<VertexPtr>& buckets, const vector<VertexPtr > vertices, bool side)
+void DataStructures::initializeBucketSort(int vertexIndex, int gain, vector<VertexPtr>& buckets, const vector<VertexPtr>& vertices, bool side)
 {
 	int* maxGainIndex;
 	if (side) {
